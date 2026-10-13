@@ -1,0 +1,9 @@
+{
+  "range": [8000, 8999],
+  "ports": {
+    "135": {"name": "rpc-endpoint", "process": "svchost.exe"},
+    "445": {"name": "smb", "process": "System"},
+    "8080": {"name": "intranet-app", "process": "java.exe"},
+    "8765": {"name": "demo-web", "process": "python.exe"}
+  }
+}
